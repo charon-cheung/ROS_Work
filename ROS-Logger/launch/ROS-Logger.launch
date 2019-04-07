@@ -1,0 +1,6 @@
+
+<launch>
+  <env name="ROSCONSOLE_CONFIG_FILE"
+       value="$(find ROS-Logger)/setting.conf"/>
+  <node pkg="ROS-Logger" type="ROS-Logger" name="ROS-Logger" output="screen"/>
+</launch>

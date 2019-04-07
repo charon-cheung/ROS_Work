@@ -1,0 +1,9 @@
+<library path="libviewer">
+  <class name="topic_viewer/Viewer"
+	 type = "topic_viewer::Viewer"
+	 base_class_type="rviz::Panel">
+    <description>
+	The  plugin used to show some topics' message
+    </description>
+  </class>
+</library>
